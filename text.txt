@@ -1,0 +1,18 @@
+part of the web dev workshop organized by sci commitee, saif al majd and mustafa
+
+extensions: live server 
+
+day2 by mustafa:
+1. forked his repo
+2. cloned it in my local computer
+3. customized the ready made template- names, bio, links and profiles
+4. deployed it using Git
+5. got the link for demo (settings-> pages): https://thinleyyc.github.io/thinleyTemplate/ 
+
+for future reference:
+1. add cv
+2. contact detials
+3. more web pages
+4. play with css style 
+5. experiment forwarding this to recruiters
+
