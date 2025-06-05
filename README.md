@@ -1,4 +1,4 @@
-Took a workshop to work with;
+Attended a workshop by Mustafa, organized by SCI committe to work with;
 1. HTML
 2. CSS
 3. JavaScript
