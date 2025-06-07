@@ -315,20 +315,20 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* Skills SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
-.experience-sub-title {
+.skills-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.skills-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -339,7 +339,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1.5rem;
   justify-content: space-around;
 }
 
@@ -381,6 +381,28 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+#projects .btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  max-width: 400px;
+}
+
+#projects .btn-container .btn {
+  flex: 0 0 48%;
+  max-width: 48%;
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  white-space: normal;     /* allow wrapping */
+  overflow: visible;       /* show all text */
+  height: auto;            /* let height adjust naturally */
+  min-height: 60px;        /* ensures they all stay same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* CONTACT */
 
 #contact {
@@ -430,4 +452,14 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+
+.profile-pic {
+  width: 400px;           /* adjust as needed */
+  height: 400px;          /* same as width for perfect circle */
+  object-fit: cover;      /* makes the image fill the circle neatly */
+  border-radius: 50%;     /* makes it round */
+  border: 4px solid #ccc; /* optional border */
 }

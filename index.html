@@ -14,7 +14,7 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -30,7 +30,7 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -38,16 +38,18 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/maomao.jpeg" alt="John Doe profile picture" />
+        <img src="./assets/profile.jpg" alt="Thinley profile picture" class="profile-pic" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Thinley</h1>
-        <p class="section__text__p2">Data Analyst</p>
+        <p class="section__text__p2">Final Year Student | Bcs.Cs</p>
+        <p >Albukhary International University, Malaysia</p>
+        <p class="section__text__p3" style="margin-bottom: 30px;">Expected Graduation: April, 2026</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/CV.pdf')"
+            onclick="window.open('./assets/ThinleyResume1.pdf')"
           >
             Download CV
           </button>
@@ -68,72 +70,102 @@
             class="icon"
             onclick="location.href='https://github.com/ThinleyYC/'"
           />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
-            alt="Profile picture"
-            class="about-pic"
+            src="./assets/kaggle.jpg"
+            alt="My Kaggle profile"
+            class="icon"
+            onclick="location.href='https://www.kaggle.com/thinleyyesheycho'"
           />
         </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>1+ years <br />Data Analysis</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I am a Final Year, Data Science Student.
-            </p>
-          </div>
+      </div>
+
+</section>
+
+
+      
+ <section id="about">
+  <p class="section__text__p1" style="text-align: center;">Get To Know More</p>
+  <h1 class="title" style="text-align: center;">About Me</h1>
+
+  <div class="section-container" style="display: flex; justify-content: center;">
+    <div class="about-details-container" style="display: flex; flex-direction: column; align-items: center; max-width: 800px; width: 100%;">
+
+      <div class="about-containers" style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+        <div class="details-container" style="text-align: center;">
+          <img
+            src="./assets/cgpa.png"
+            alt="CGPA icon"
+            class="icon"
+          />
+          <h3>CGPA</h3>
+          <p><b>3.91</b> <br />Continuous Deans List Awardee</p>
+        </div>
+        <div class="details-container" style="text-align: center;">
+          <img
+            src="./assets/education.png"
+            alt="Education icon"
+            class="icon"
+          />
+          <h3>Education</h3>
+          <p>Bachelors of Computer Science (Honors)</p>
         </div>
       </div>
+
+      <!-- Document Buttons -->
+      <p class="section__text__p2" style="text-align: center;">Additional Documents</p>
+      <div class="btn-container" style="margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+        <button class="btn btn-color-2" onclick="window.open('./assets/AcademicTranscript_Thinley.pdf')">
+          Academic Transcript
+        </button>
+        <button class="btn btn-color-2" onclick="window.open('./assets/ApplicationLetter_Thinley.pdf')">
+          Placement Application
+        </button>
+        <button class="btn btn-color-2" onclick="window.open('./assets/supportingDocuments_Thinley.pdf')">
+          Supporting Documents
+        </button>
+      </div>
+
+      <!-- About Text -->
+      <div class="text-container" style="margin-top: 20px; text-align: center;">
+        <p>Final Year Student looking for an internship placement as part of my industrial Training</p>
+        <p><b>Data Anlytics, Web Development, Database Management, Research, IT</b>, and so on</p>
+        <p><b>August, 2025 - February, 2026</b></p>
+        
+      </div>
+      
+    </div>
+  </div>
+
+
+ 
+      
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='./#skills'"
       />
+
+
     </section>
-    <section id="experience">
+    <section id="skills">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
+      <h1 class="title">Skills</h1>
+
+      <div class="skills-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="skills-sub-title">Language/Frameworks</h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skill icon"
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h3>Python, R</h3>
+                  <p>Comfortable</p>
                 </div>
               </article>
               <article>
@@ -143,37 +175,165 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <h3>C, Java</h3>
+                  <p>Developing</p>
                 </div>
               </article>
-            
              
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skill icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>HTML, CSS</h3>
+                  <p>Comfortable</p>
                 </div>
               </article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>SQL, php</h3>
+    <p>Comfortable</p>
+
+  </div>
+</article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>Keras, TensorFlow</h3>
+  </div>
+</article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>Seaborn, Matplotlib</h3>
+  </div>
+</article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>Flask, Bootstrap</h3>
+  </div>
+</article>
+
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>Scikit-learn</h3>
+  </div>
+</article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>Numpy, Pandas</h3>
+  </div>
+</article>
+
+
             </div>
           </div>
+
+
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="skills-sub-title">Tools & Environments</h2>
             <div class="article-container">
               <article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>Anaconda</h3>
+  </div>
+</article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>G Collab</h3>
+  </div>
+</article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>Kali Linux</h3>
+  </div>
+</article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>Pycharm</h3>
+  </div>
+</article>
+
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>R studio</h3>
+
+  </div>
+</article>
+<article>
+  <img
+    src="./assets/checkmark.png"
+    alt="skill icon"
+    class="icon"
+  />
+  <div>
+    <h3>xampp</h3>
+  </div>
+</article>
+
+              <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skill icon"
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Tableau</h3>
                 </div>
               </article>
               <article>
@@ -183,120 +343,185 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>GitHub</h3>
                 </div>
               </article>
+             
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skill icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>VSCode</h3>
                 </div>
               </article>
               <article>
+                <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skill icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <h3>Draw.io</h3>
                 </div>
               </article>
+              </article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Trae</h3>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skill icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                </div>
+              </article>
+              
+
+
             </div>
           </div>
         </div>
       </div>
+
+            </div>
+          </div>
+  
+  <h1 class="title" style="font-size: 1.8rem; ">Certifications</h1>
+
+  <p style="margin-top: 10px; text-align: center; ">
+    Earned 
+    <a 
+      href="https://www.credly.com/badges/7d6119de-666f-4dce-ad4a-c50c131f4d8c" 
+      target="_blank" 
+      style=" color: inherit; font-weight: bold;">
+      AWS Academy Graduate - Machine Learning Foundations
+    </a>
+    from Amazon Web Services Training and Certification
+  </p>
+
+
+
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
       />
-    </section>
+
+</section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
+      <p class="section__text__p1">Browse My Experience</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
+
+          <!-- BOX 1 -->
+<div class="details-container color-container" style="background-color: #f0f9ff; border-left: 4px solid #3b82f6; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); margin-bottom: 2rem;">
+  <h2 class="experience-sub-title project-title">Web Dev & DBMS</h2>
+
+  <div class="btn-container">
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/MelaScan_FinalYearProject'">
+      MelaScan Website DL (FYP) 
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/Academy_Management_System'">
+      Academy Management
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/thinleyTemplate'">
+      Thinley Portfolio Template (CV)
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/ImageColorDetection-opencv'">
+      Image Color Detection - AI
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/BookstoreInventory_DatabaseManagementSystem'">
+      Bookstore Inventory DBMS
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/EcommercePlatform_SoftwareSpecifications'">
+      Ecommerce Specifications
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/TravelPlannerSystems-Requirements'">
+      Travel Planner Specifications
+    </button>
+  </div>
+</div>
+
+
+          <!-- BOX 2 -->
+<div class="details-container color-container" style="background-color: #fefce8; border-left: 4px solid #facc15; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); margin-bottom: 2rem;">
+ <h2 class="experience-sub-title project-title" style="white-space: nowrap;">Data Analysis/Research</h2>
+
+
+  <div class="btn-container">
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/African-Credit-Scoring-Challenge_DL'">
+      Credit Score (Africa)
+    </button>
+        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/Resnet50_Her2BreastCancer_Research'">
+      ResNet50 Breast Cancer
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/StatisticalAnalysis-ObesityLevels'">
+      Obesity Stats Analysis (R)
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/MachineLearningModels-Supervised-Unsupervised'">
+      ML Heart & Clustering
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/SpamDetection-ML_logisticRegression'">
+      Spam Detection (ML)
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/DataMining-PenguinHealth'">
+      Penguin Health Mining
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/AsthmaDetection-ML_Research'">
+      Asthma Detection (ML Research)
+    </button>
+  </div>
+</div>
+
+
+          <!-- BOX 3 -->
+<div class="details-container color-container" style="background-color: #fdf4ff; border-left: 4px solid #d946ef; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); margin-bottom: 2rem;">
+  <h2 class="experience-sub-title project-title">Tech Extras</h2>
+
+  <div class="btn-container">
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/InformationVisualization'">
+      Info Visualization (Tableau)
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/GoogleCloud-textTospeech-AI-API-NLP'">
+      Text-to-Speech API (Google Cloud)
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/ARC-AGI'">
+      ARC-AGI Benchmark
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/KaliLinux-operatingSystem'">
+     Kali Linux vs Windows Analysis
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/BankSimulation-Java'">
+      Bank Simulation (Java)
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/SystemDiagrams-portfolio'">
+      System Diagrams (Diagrams.net)
+    </button>
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ThinleyYC/MathCalculator-C_program'">
+      Math Calculator (C)
+    </button>
+  </div>
+</div>
+
+
+<!-- BOX 3  END -->
+      
         </div>
       </div>
       <img
@@ -316,15 +541,24 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="https://mail.google.com/mail/?view=cm&to=tidychoden@gmail.com" target="_blank">tidychoden@gmail.com </a></p>
         </div>
+        <!-- Second Email -->
+    <div class="contact-info-container">
+      <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="https://mail.google.com/mail/?view=cm&to=thinley.choden@student.aiu.edu.my" target="_blank">thinley.choden@student.aiu.edu.my</a></p>
+    </div>
         <div class="contact-info-container">
           <img
             src="./assets/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/thinleyyesheychoden/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -333,13 +567,13 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2025 Thinley Yeshey Choden. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
